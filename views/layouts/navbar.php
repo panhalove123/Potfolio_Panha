@@ -1,6 +1,3 @@
-<style>
-  
-</style>
 <main>
 
    
@@ -101,8 +98,8 @@
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://www.linkedin.com/in/nhean-panha-11420b345/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
@@ -130,51 +127,32 @@
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+      <?php
+$currentPage = basename($_SERVER['REQUEST_URI']);
+?>
+
+<nav class="navbar">
+
   <ul class="navbar-list">
-    <li class="navbar-item"><a href="/"><button class="navbar-link" data-nav-link>About</button></a></li>
-    <li class="navbar-item"><a href="/resume"><button class="navbar-link" data-nav-link>Resume</button></a></li>
-    <li class="navbar-item"><a href="/project"><button class="navbar-link" data-nav-link>Projects</button></a></li>
-    <li class="navbar-item"><a href="/contact"><button class="navbar-link" data-nav-link>Contact</button></a></li>
+
+    <li class="navbar-item">
+      <a href="/" class="navbar-link <?php echo $currentPage == '' ? 'active' : ''; ?>" data-nav-link>About</a>
+    </li>
+
+    <li class="navbar-item">
+      <a href="/resume" class="navbar-link <?php echo $currentPage == 'resume' ? 'active' : ''; ?>" data-nav-link>Resume</a>
+    </li>
+
+    <li class="navbar-item">
+      <a href="/project" class="navbar-link <?php echo $currentPage == 'project' ? 'active' : ''; ?>" data-nav-link>Projects</a>
+    </li>
+
+    <li class="navbar-item">
+      <a href="/contact" class="navbar-link <?php echo $currentPage == 'contact' ? 'active' : ''; ?>" data-nav-link>Contact</a>
+    </li>
+
   </ul>
+
 </nav>
-<script>
-  const currentPath = window.location.pathname;
-  const navLinks = document.querySelectorAll('.navbar-link');
-
-  navLinks.forEach(link => {
-    const href = link.closest('a').getAttribute('href');
-
-    if (currentPath === href || (currentPath === '/' && href === '/')) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
-  });
-</script>
-
-<style>
-  .navbar-link {
-  background: none;
-  border: none;
-  color: #444;
-  font-weight: 500;
-  cursor: pointer;
-  padding: 10px 20px;
-  transition: color 0.3s ease;
-}
-
-.navbar-link:hover {
-  color:rgb(229, 156, 11);
-}
-
-.navbar-link.active {
-color:rgb(229, 156, 11);  font-weight: bold;
-  border-bottom: 2px solid orange;
-}
-
-</style>
 
 
-
- 

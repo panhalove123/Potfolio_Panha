@@ -1,7 +1,7 @@
 
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
@@ -17,11 +17,14 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>JavaScript Project</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Algorithm Project</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Design Project</button>
             </li>
 
           </ul>

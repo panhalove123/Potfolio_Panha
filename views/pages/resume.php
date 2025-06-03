@@ -1,6 +1,4 @@
-
-
-        <header>
+<header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
@@ -18,44 +16,30 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">High School</h4>
 
-              <span>2007 — 2008</span>
+              <span>2020 - 2023</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Hun Sen Prasat Bakong high school.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">Pursuing AssociateDegree</h4>
 
-              <span>2006 — 2007</span>
+              <span>2024 - Present</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                study about Web Development at Passerelles NumeriquesCambodia (PNC).
+
               </p>
 
             </li>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
+            
 
           </ol>
 
@@ -75,42 +59,69 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Virtual Company 1</h4>
 
-              <span>2015 — Present</span>
+              <span> March 10, 2025 – April 2, 2025</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                        Build: POS System and  E-Commerce Website (Salon) <br>
+                        Roles: Developer and Data Analyst <br>
+                      - Designed  in Figma, focusing on Desktop and mobile responsive <br>
+                      - Built a POS system to manage in-store, inventory and customer profiles. <br>
+                      - Developed the e-commerce website using HTML, CSS, Bootstrap 5, and JavaScript, including :<br>
+                       Product catalogue pages with filtering, sorting, and detailed product views.<br>
+                       Shopping cart and checkout functionality integrated with a backend.
+                      Built the backend using PHP in an MVC structure
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">JavaScript Project</h4>
 
-              <span>2013 — 2015</span>
+              <span> January 14, 2025 – January 29, 2025</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                 Build: Inventory <br>
+     Roles: Team Leader <br>
+- Led a team to design and develop an inventory management system using JavaScript, HTML, and CSS. <br>
+- Implemented functionalities such as adding, updating, and tracking inventory items dynamically with JavaScript. <br>
+- Managed team collaboration and task distribution for efficient workflow and timely delivery. <br>
+
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Web designer</h4>
+              <h4 class="h4 timeline-item-title">Algorithm Project </h4>
 
-              <span>2010 — 2013</span>
+              <span>November 18, 2024 – November 28, 2024</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                 Build: Face Detection <br>
+     Roles: Team leader <br>
+- Led the development of a face detection application using Python (algorithmic) techniques. <br>
+- Developed functionality to scan faces through a webcam feed and automatically display identified names from the dataset.<br>
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Design Project </h4>
+
+              <span> October 21, 2024 – November 5, 2024</span>
+
+              <p class="timeline-text">
+                  Build: MUSIC BAND <br>
+    Roles: Team Leader <br>
+- Designed and developed a fully responsive website for a music band.<br>
+- Utilised HTML, CSS, and SASS to create a clean and consistent design.<br>
+- ollaborated with the team using Git for version control and smooth code integration.<br>
+- Identified and resolved bugs during development
+
+
               </p>
 
             </li>
@@ -128,6 +139,30 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
                 <h5 class="h5">Web design</h5>
                 <data value="80">80%</data>
               </div>
@@ -142,7 +177,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
+                <data value="70">75%</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -151,30 +186,59 @@
 
             </li>
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
+            
 
             <li class="skills-item">
 
               <div class="title-wrapper">
                 <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <data value="50">60%</data>
               </div>
 
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 50%;"></div>
               </div>
 
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python(Algorithm)</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
             </li>
 
           </ul>

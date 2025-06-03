@@ -1,13 +1,10 @@
-
-
-
-        <header>
+<header>
           <h2 class="h2 article-title">About me</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+            I'm a web developer from Siem Reap, Cambodia, working in web development.
             I enjoy
             turning complex problems into simple, beautiful and intuitive designs.
           </p>
@@ -17,7 +14,7 @@
             Moreover, I
             add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
             across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            message and identity in the most creative way. I created alot of projects during my study.
           </p>
         </section>
 
@@ -301,3 +298,10 @@
         </section>
 
       </article>
+
+      <div class="cv-download" style="text-align: center; margin-top: 20px;">
+        <a href="assets/CV/Panha.pdf" class="btn" download style="background-color: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 16px; display: inline-flex; align-items: center;">
+          <ion-icon name="download-outline" style="margin-right: 8px; font-size: 20px;"></ion-icon>
+          Download My CV
+        </a>
+      </div>
