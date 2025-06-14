@@ -12,7 +12,9 @@
         <div class="info-content">
           <h1 class="name" title="Richard hanrick">Nhean Panha</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">
+            <span id="role-slider">Software Developer</span>
+          </p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -92,20 +94,20 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://www.facebook.com/share/16s6v1t3U3/?mibextid=wwXIfr" class="social-link" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; background: #1877F3; border-radius: 50%; width: 36px; height: 36px; margin-right: 8px; transition: box-shadow 0.2s; box-shadow: 0 2px 8px rgba(24,119,243,0.10);">
+              <ion-icon name="logo-facebook" style="color: #fff; font-size: 22px;"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/nhean-panha-11420b345/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="https://www.linkedin.com/in/nhean-panha-11420b345/" class="social-link" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; background: #0077B5; border-radius: 50%; width: 36px; height: 36px; margin-right: 8px; transition: box-shadow 0.2s; box-shadow: 0 2px 8px rgba(0,119,181,0.10);">
+              <ion-icon name="logo-linkedin" style="color: #fff; font-size: 22px;"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://t.me/Nhean_PanhaA" class="social-link" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; background: #229ED9; border-radius: 50%; width: 36px; height: 36px; transition: box-shadow 0.2s; box-shadow: 0 2px 8px rgba(34,158,217,0.10);">
+              <img src="../../assets/images/telegram.jpg" alt="Telegram" style="width: 22px; height: 22px; display: block;" />
             </a>
           </li>
 
@@ -154,5 +156,15 @@ $currentPage = basename($_SERVER['REQUEST_URI']);
   </ul>
 
 </nav>
+
+<script>
+// Simple role slider for sidebar title
+const roles = ["Software Developer", "Frontend Developer", "Backend Developer", "UX & UI", "QA Tester"];
+let roleIndex = 0;
+setInterval(() => {
+  roleIndex = (roleIndex + 1) % roles.length;
+  document.getElementById("role-slider").textContent = roles[roleIndex];
+}, 2000);
+</script>
 
 

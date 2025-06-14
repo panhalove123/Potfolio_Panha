@@ -12,9 +12,9 @@ class Database
      * @param string $username The username for the database connection.
      * @param string $password The password for the database connection.
      */
-    public function __construct($host, $dbname, $username, $password)
+    public function __construct($host, $Panha_Portfolio, $username, $password)
     {
-        $dsn = "mysql:host=$host;dbname=$dbname;charset=UTF8";
+        $dsn = "mysql:host=$host;dbname=$Panha_Portfolio;charset=UTF8";
 
         try {
             $this->db = new PDO($dsn, $username, $password);

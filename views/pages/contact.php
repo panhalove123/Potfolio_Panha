@@ -1,5 +1,4 @@
-
-        <header>
+<header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
@@ -15,17 +14,17 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="contact_process.php" method="post" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
