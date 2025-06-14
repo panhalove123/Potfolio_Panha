@@ -88,7 +88,7 @@
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">REFERENCES</h3>
+          <h3 class="h3 testimonials-title">testimonials</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
