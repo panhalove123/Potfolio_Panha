@@ -74,6 +74,17 @@ for (let i = 0; i < selectItems.length; i++) {
 
   });
 }
+// Add a function to open the inventory app in a new tab
+function openInventoryApp() {
+    window.open('https://inventory-app-g22-sg2n.vercel.app/', '_blank');
+}
+
+// Example usage: Attach the function to a button click event
+// document.getElementById('inventoryAppButton').addEventListener('click', openInventoryApp);
+
+function openPortfolioPage() {
+    window.open('https://potfolio-panha-9co4.vercel.app', '_blank');
+}
 
 // filter variables
 const filterItems = document.querySelectorAll("[data-filter-item]");
