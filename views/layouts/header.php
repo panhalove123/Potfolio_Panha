@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Panha Portfolio</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="../assets/images/icon-photo.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9944/9944495.png" type="image/x-icon">
 
   <!--
     - custom css link
